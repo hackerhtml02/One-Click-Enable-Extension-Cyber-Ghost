@@ -1,45 +1,15 @@
 {
-
   "manifest_version": 2,
-
-  "name": "Auto Extension Enabled Made By Muhammad Haris",
-
+  "name": "Auto Enabled Extensions",
   "version": "1.0",
-
   "permissions": [
-
-    "activeTab",
-
-    "chrome://*",
-    "chrome://extensions/*"
-
+    "management"
   ],
-
-  "content_scripts": [
-
-    {
-
-      "matches": ["chrome://*", "chrome://extensions/*"],
-
-      "js": ["content.js"]
-
-    }
-
-  ],
-
-  "browser_action": {
-
-    "default_popup": "popup.html",
-
-    "default_icon": "icon.png"
-
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   },
-
   "icons": {
-
     "48": "icon.png"
-
   }
-
 }
-
