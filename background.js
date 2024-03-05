@@ -1,5 +1,5 @@
 // Extension ID of the extension you want to enable
-var extensionId = "your_extension_id";
+var extensionId = "ffbkglfijbcbgblgflchnbphjdllaogb";
 
 // Function to enable the extension
 function enableExtension() {
